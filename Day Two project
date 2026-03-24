@@ -1,1 +1,12 @@
-hsbsjz
+# This is A user Login (Cli) 
+
+
+
+user = input("Enter Username: ")
+pass_ = input("Enter password ")
+if user == "Admin" and pass_ != "Samhero":
+    print("Incorrect Password")
+elif user == "Admin" and pass_ == "Samhero":
+   print("Access Granted")
+else:
+   print('Access denied')
