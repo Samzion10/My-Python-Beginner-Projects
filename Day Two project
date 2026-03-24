@@ -9,4 +9,4 @@ if user == "Admin" and pass_ != "Samhero":
 elif user == "Admin" and pass_ == "Samhero":
    print("Access Granted")
 else:
-   print('Access denied')
+   print('Access denied') 
